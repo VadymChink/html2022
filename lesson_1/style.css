@@ -1,0 +1,45 @@
+h1, h2, p {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+}
+
+h1 {
+    background: aqua;
+    color: red;
+}
+
+h2 {
+    background: red;
+    text-align: center;
+}
+
+h2 a {
+    color: aqua;
+    text-decoration: none;
+}
+
+.color-white {
+    color: white;
+}
+
+.color-blue {
+    color: blue;
+}
+.bg-color-red {
+    background: red;
+}
+
+.bg-yellow{
+    background: yellow;
+}
+
+li {
+    color: cornflowerblue;
+}
+
+ul {
+    background: black;
+}
