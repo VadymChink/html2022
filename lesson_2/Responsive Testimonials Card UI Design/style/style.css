@@ -1,0 +1,59 @@
+:root {
+    --green_bg: #34cc9d;
+}
+
+._df_center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    background: var(--green_bg);
+
+}
+
+.cards {
+    column-gap: 40px;
+    padding-top: 70px;
+}
+
+.card {
+    height: 380px;
+    width: 250px;
+    background: #141e27;
+    flex-direction: column;
+    padding: 0 25px;
+}
+
+.fa-quote-right {
+    color: var(--green_bg);
+    font-size: 50px;
+}
+
+.txt {
+    color: white;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 80px;
+}
+
+.name {
+    color: var(--green_bg);
+    margin-top: 10px;
+}
+
+.title {
+    font-size: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 50px;
+}
+
+span {
+    font-weight: 900;
+}

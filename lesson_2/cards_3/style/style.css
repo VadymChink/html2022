@@ -1,0 +1,36 @@
+h2{
+    margin: 0;
+}
+
+._flex_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper{
+    background: #06bbd3;
+    color: gray;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 20px;
+    padding: 60px;
+}
+.card{
+    width: 500px;
+    background: white;
+    column-gap: 40px;
+    border-radius: 10px;
+    padding: 0 40px;
+}
+.fa-pen-to-square{
+    font-size: 35px;
+}
+
+.container{
+    padding: 20px 0;
+}
+
+.title{
+    color: #fdb749;
+}

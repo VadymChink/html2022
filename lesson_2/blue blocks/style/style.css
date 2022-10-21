@@ -1,0 +1,36 @@
+._df_center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.wrapper {
+    margin: 0 auto;
+    height: 700px;
+    width: 470px;
+
+}
+.first_block{
+    height: 200px;
+    color: white;
+    background: #2269ba;
+    margin-bottom: 10px;
+}
+.middle_block {
+    display: flex;
+    column-gap: 10px;
+    margin-bottom: 10px;
+}
+
+.little_block {
+    background: #16457a;
+    width: 150px;
+    height: 200px;
+    color: white;
+}
+
+.last_block{
+    background: #2269ba;
+    color: white;
+    height: 400px;
+}

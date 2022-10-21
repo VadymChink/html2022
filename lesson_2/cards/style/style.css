@@ -1,0 +1,32 @@
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 20px;
+    height: 780px;
+
+}
+
+.card {
+    width: 270px;
+    height: 300px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.paragraph {
+    color: gray;
+    font-size: 18px;
+    line-height: 2;
+    text-align: center;
+}
+
+.btn{
+    background: none;
+    padding: 10px 50px;
+    margin-bottom: 30px;
+    border: 1px solid black;
+}
