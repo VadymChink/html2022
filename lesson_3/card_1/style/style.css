@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+._df_center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.wrapper {
+    text-align: center;
+}
+
+.cards {
+    column-gap: 30px;
+}
+
+.card {
+    flex-direction: column;
+}
+
+.ico_block {
+    position: relative;
+    top: 30px;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+}
+
+.fa-desktop {
+    color: orange;
+    font-size: 25px;
+}
+
+.content {
+    flex-direction: column;
+    border: 1px solid gray;
+    height: 320px;
+    width: 300px;
+    padding: 0 40px;
+}
+h2{
+    margin-top: 40px;
+}
+p {
+    color: gray;
+    font-size: 18px;
+    line-height: 2;
+    margin: 20px 0;
+}
+
+._btn {
+    background: none;
+    border: 1px solid;
+    padding: 10px 50px;
+}
