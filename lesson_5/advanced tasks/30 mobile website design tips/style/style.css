@@ -1,0 +1,218 @@
+:root {
+    --base_bg: #676767;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+h2 {
+    color: #bf7475;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+}
+
+/*tech class*/
+._df_c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+._base_bg {
+    background: var(--base_bg);
+}
+
+._f_d_colum {
+    flex-direction: column;
+}
+
+.wrapper {
+    width: 90vw;
+    max-width: 1000px;
+    row-gap: 10px;
+    border: 1px solid black;
+    position: relative;
+}
+
+.had {
+    width: 100%;
+    height: 60px;
+    column-gap: 10px;
+}
+
+.logo {
+    width: 20%;
+    height: 100%;
+}
+
+.header {
+    width: 80%;
+    height: 100%;
+}
+
+.second_section {
+    width: 100%;
+    column-gap: 10px;
+    align-items: start;
+}
+
+.nav {
+    width: 20%;
+    height: 500px;
+}
+
+.second_section_content {
+    width: 80%;
+    column-gap: 10px;
+}
+
+.intro {
+    height: 150px;
+    width: 75%;
+}
+
+.ad {
+    height: 150px;
+    width: 25%;
+}
+
+.third_section {
+    flex-direction: row-reverse;
+    align-items: end;
+    width: 100%;
+    column-gap: 10px;
+    position: absolute;
+    top: 230px;
+}
+
+.third_section_right {
+    width: 80%;
+    height: 500px;
+    column-gap: 10px;
+}
+
+.type_of_baths {
+    height: 100%;
+    width: 75%;
+}
+
+.related {
+    width: 25%;
+    height: 100%;
+}
+
+.third_section_left {
+    width: 20%;
+    row-gap: 10px;
+}
+
+.item_8, .item_9 {
+    height: 70px;
+    width: 100%;
+}
+
+.item_8 > h2, .item_9 > h2 {
+    margin-right: 5px;
+}
+
+.footer {
+    width: 100%;
+    height: 310px;
+    position: inherit;
+}
+
+.footer_content {
+    height: 150px;
+    position: inherit;
+    top: 160px;
+}
+
+@media screen and (max-width: 900px) {
+    body {
+        background: #141e27;
+    }
+
+    .second_section {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .nav {
+        height: 100px;
+        width: 100%;
+    }
+
+    .second_section_content {
+        width: 100%;
+    }
+
+    .intro, .ad {
+        height: 250px;
+    }
+
+    .third_section {
+        position: inherit;
+        top: 0;
+        flex-direction: column;
+        row-gap: 10px;
+    }
+
+    .third_section_right {
+        flex-direction: column;
+        width: 100%;
+        height: 1000px;
+        row-gap: 10px;
+    }
+
+    .type_of_baths {
+        width: 100%;
+        height: 65%;
+    }
+
+    .related {
+        width: 100%;
+        height: 35%;
+    }
+
+    .third_section_left {
+        flex-direction: row;
+        column-gap: 10px;
+        height: 200px;
+        width: 100%;
+    }
+
+    .item_8, .item_9 {
+        width: 50%;
+        height: 100%;
+    }
+
+
+    .footer {
+        height: 150px;
+    }
+
+    .footer_content {
+        position: inherit;
+        top: 0;
+    }
+}
+
+
+
+
+
+
+
+
